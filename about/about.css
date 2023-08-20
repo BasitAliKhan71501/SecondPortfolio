@@ -1,0 +1,83 @@
+.aboutMainDiv{
+  background-color:#111;
+  color: white;
+}
+.aboutMainDiv .heading{
+    padding:4rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutMainDiv .personalRow{
+    width: 94%;
+}
+.aboutMainDiv .personalRow .personalCol{
+    margin-right: 1.5rem;
+}
+.aboutMainDiv .personalRow .cardsCol{
+    margin-left: 1.5rem;
+    padding: 0;
+}
+.card{
+    border: none;
+}
+.card-body{
+    padding: 20px 30px 25px 40px;
+    border-radius: 8px;
+    border: 1px solid #252525;
+}
+
+.aboutCards .aboutCardLine{
+    padding-left: 45px;
+}
+.aboutCards .aboutCardLine::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background:  #ACACAC !important;
+}
+.cardsCol .diffAboutNumber{
+    color: #FFB400; 
+    font-family: 'Poppins', sans-serif;
+}
+.aboutCards .aboutCardText p{
+    font-family: 'Poppins', sans-serif;
+ }
+.lineHeightP{
+ line-height: 2.5rem;
+ font-family: 'Poppins', sans-serif;
+ color: #ACACAC;
+}
+.detailsDiv .lineHeightP .whiteSpans{
+    color: #FFFF;
+    font-family: 'Opens Sans', sans-serif;
+}
+.detailsDiv .detailsPartOne .lineHeightP .greenSpan{
+    color: #58E058;
+    font-family: 'Opens Sans', sans-serif;
+}
+.aboutMainDiv .aboutMeText{
+    font-size: 56px;
+    font-weight: 900!important;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.aboutMainDiv .aboutMeText .aboutMeSpan{
+    color: #FFB400;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutMainDiv .heading .titleBig{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    line-height: .7;
+    position: absolute;
+    right: 0;
+    top: 15.5%;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+}

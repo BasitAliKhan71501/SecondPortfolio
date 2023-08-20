@@ -1,0 +1,161 @@
+.mainDiv {
+    width: 100% !important;
+    height: 100vh !important;
+    background-color:#111;
+    overflow-y: hidden !important;
+}
+
+.mainDiv .homeCf .mainRow .imgCol {
+    padding: 2rem 0;
+    z-index: 11111;
+}
+
+.mainDiv .homeCf .mainRow .imgCol img {
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.mainDiv .homeCf .mainRow .detailsCol {
+    padding: 8.9rem 0;
+    margin: 0 auto;
+}
+
+.mainDiv .homeCf .color-block {
+    background-color: rgb(255, 166, 0);
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+}
+
+.detailsCol .detailMain .textLine {
+    border-radius: 5px;
+    width: 2.4rem;
+    height: 3.2px;
+    background-color: rgb(255, 166, 0);
+}
+
+.detailsCol .detailMain .diffText {
+    color: rgb(255, 166, 0);
+}
+
+.detailsCol .detailMain .titleText {
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+    color: #FFFF;
+}
+
+.detailsCol .detailMain .introText {
+    color: rgb(240, 240, 240);
+    font-size: 15px;
+    line-height: 2.3rem;
+    font-family: Poppins, sans-serif;
+    width: 80%;
+}
+
+.buttonDiv .homeBtnText {
+    padding: 0.8rem 3.8rem 0.8rem 1.8rem;
+    color: #FFFF;
+    border: 1px solid rgb(255, 166, 0);
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.buttonDiv .homeBtnText:hover {
+    background-color: rgb(255, 166, 0);
+    transition: right 0.9s ease 0s;
+}
+
+.icon:hover .buttonDiv {
+    background-color: rgb(255, 166, 0);
+    transition: right 0.9s ease 0s;
+}
+
+.buttonDiv .icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3rem;
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+
+.bi-brightness-high {
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.bi-moon {
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    display: none;
+}
+
+.buttonDiv .icon .fa-arrow-right {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.sideBar {
+    position: fixed;
+    right: 2rem;
+    top: 1rem;
+}
+
+.sideBar .sameClassIcon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(87, 85, 85);
+    cursor: pointer;
+    margin-left: -3rem;
+}
+ .sideBar ul li .sameClassIcon:hover {
+    background-color: rgb(255, 166, 0);
+    transition: right 0.9s ease 0s;
+}
+
+p {
+    margin: 0;
+}
+
+.sameClassIconText {
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.8rem 3.5rem 0.8rem 1.8rem;
+    display: none;
+}
+
+.homeIcon {
+    background-color: rgb(255, 166, 0) !important;
+}
+
+.sideBar .sideBarFirstPart {
+    margin-bottom: 5rem;
+}
+/* Media Query */
